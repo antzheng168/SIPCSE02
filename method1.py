@@ -8,7 +8,7 @@ CSE 30 Spring 2020 Program 4 starter code
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('sample1 (1).avi')
+cap = cv2.VideoCapture('sample1.avi')
 #cap = cv2.VideoCapture(0)
 frame_width = int( cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 
